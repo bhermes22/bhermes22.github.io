@@ -133,22 +133,22 @@ h3 {
 #home-cover,
 #home-heading,
 #home-btn {
-    -webkit-animation-duration: .5s;
+    
             animation-duration: .5s;
 }
 
 #home-cover {
-    -webkit-animation-delay: .1s;
+   
             animation-delay: .1s;
 }
 
 #home-heading {
-    -webkit-animation-delay: .5s;
+  
             animation-delay: .5s;
 }
 
 #home-btn {
-    -webkit-animation-delay: 1s;
+   
             animation-delay: 1s;
 }
 
@@ -648,7 +648,6 @@ form .form-control {
 
 .navbar {
     padding: 20px 0;
-    -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
 }
 .vesco-top-nav {
