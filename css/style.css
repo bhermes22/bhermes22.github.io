@@ -45,7 +45,7 @@ h3 {
 
 #home-cover {
     height: 100%;
-    background-image: url("../img/bg-home3.jpg");
+    background-image: url("../img/SparkTravis.jpg");
 }
 
 #home-content-box {
@@ -61,7 +61,8 @@ h3 {
 }
 
 #home-heading h3 {
-    color: #fff;
+    color: #C42A2D;
+    text-shadow: 3px 3px #404040;
     font-size: 55px;
     font-weight: 700;
     margin: 20px 0 20px 0;
@@ -224,7 +225,7 @@ h3 {
     width: 60%;
     height: 700px;
     float: right;
-    background-image: url(../img/bg-about.jpg);
+    background-image: url(../img/SparkAOC.jpg);
     border-left: 200px solid #fff;
     border-top: 700px solid transparent;
 }
@@ -241,8 +242,9 @@ h3 {
 }
 
 #about-content-box-inner {
+    width: 100%;
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: baseline;
 }
 
 #about .content-title h3 {
@@ -279,8 +281,8 @@ h3 {
 }
 
 .img-wrapper img:hover {
-     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+     -webkit-transform: scale(1.25);
+            transform: scale(1.25);
     cursor: zoom-in;
 }
 /*====================================================
@@ -382,7 +384,7 @@ h3 {
 
 
 /*====================================================
-                       QOUTES
+                       QUOTES
 ======================================================*/
 
 #quotes-cover {
@@ -546,16 +548,15 @@ form .form-control {
 ======================================================*/
 
 .navbar {
-    padding: 20px 0;
+    padding: 10px 0;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
 }
-/*
+
 .spark-top-nav {
-    background: rgba(0, 0, 0, 0.7);
     padding: 7px 0;
 }
-*/
+
 .spark-nav-wrapper {
     padding: 0 85px;
 }
@@ -565,11 +566,13 @@ form .form-control {
 }
 
 .navbar-nav>li>a {
-    color: #C42A2D;
+    color: #000;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
+    text-shadow: 1px 1px #000;
+    
 }
 
 .navbar-nav>li>a:hover,
@@ -580,7 +583,7 @@ form .form-control {
 
 .navbar-toggle {
     background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid #C42A2Dff;
+    border: 5px solid #C42A2D;
     border-radius: 0;
 }
 
